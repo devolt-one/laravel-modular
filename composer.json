@@ -1,0 +1,11 @@
+{
+    "name": "devolt/modular",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^7.12"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "license": "MIT"
+}
