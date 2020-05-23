@@ -1,9 +1,13 @@
 {
     "name": "devolt/modular",
     "description": "",
-    "homepage": "https://github.com/TheDevolt/laravel-modular",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/TheDevolt/laravel-modular",
+    "support": {
+        "issues": "https://github.com/TheDevolt/laravel-modular/issues",
+        "source": "https://github.com/TheDevolt/laravel-modular"
+    },
     "authors": [
         {
             "name": "Leonid Meleshin",
@@ -27,6 +31,13 @@
     "autoload-dev": {
         "psr-4": {
             "Devolt\\Modular\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devolt\\Modular\\ModularServiceProvider"
+            ]
         }
     },
     "scripts": {
