@@ -21,9 +21,9 @@ abstract class ModuleServiceProvider extends ServiceProvider
      */
     private ?string $path = null;
 
-    private bool $loadMigrations = false;
+    protected bool $loadMigrations = false;
 
-    private bool $loadTranslations = false;
+    protected bool $loadTranslations = false;
 
     /**
      * @var array List of providers to load
