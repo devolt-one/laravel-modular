@@ -3,10 +3,10 @@
     "description": "",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/TheDevolt/laravel-modular",
+    "homepage": "https://github.com/devolt-one/laravel-modular",
     "support": {
-        "issues": "https://github.com/TheDevolt/laravel-modular/issues",
-        "source": "https://github.com/TheDevolt/laravel-modular"
+        "issues": "https://github.com/devolt-one/laravel-modular/issues",
+        "source": "https://github.com/devolt-one/laravel-modular"
     },
     "authors": [
         {
@@ -16,8 +16,8 @@
     ],
     "require": {
         "php": "^7.4",
-        "illuminate/database": "~6.0|~7.0",
-        "illuminate/support": "~6.0|~7.0",
+        "illuminate/database": "~6.0|~7.0|~8.0",
+        "illuminate/support": "~6.0|~7.0|~8.0",
         "ext-json": "*"
     },
     "require-dev": {
